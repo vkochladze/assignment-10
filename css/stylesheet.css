@@ -1,0 +1,50 @@
+.main {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  border: solid red 5px;
+}
+
+.header {
+  max-width: inherit;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 32px;
+}
+
+.logo {
+  /* height: 27px; */
+}
+
+.nav ul {
+  display: flex;
+  column-gap: 24px;
+}
+
+.nav li {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+
+.actionButton {
+  padding: 12px 24px;
+  gap: 10px;
+  border-radius: 32px;
+  background: var(--Black, #000);
+}
+
+.actionButton button {
+  background: none;
+  border: none;
+  color: white;
+  display: flex;
+  padding: 12px 24px;
+}
