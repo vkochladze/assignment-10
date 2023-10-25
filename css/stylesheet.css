@@ -47,4 +47,121 @@
   color: white;
   display: flex;
   padding: 12px 24px;
+  color: var(--Anti-Flash-White, #f3f3f3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.section1 {
+  height: 528px;
+  display: flex;
+  padding: 64px 165px;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  align-self: stretch;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.leftContainer h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: -1px;
+}
+
+.leftContainer p {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+.rightContainer img {
+  height: 400px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+}
+
+.section2 {
+  display: flex;
+  padding: 96px 150px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  background: var(--Black, #000);
+  column-gap: 133px;
+}
+
+.s2leftContainer {
+  display: flex;
+  height: 400px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 12px;
+}
+
+.s2rightContainer h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.1px;
+}
+
+.s2rightContainer p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.s2rightContainer {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section3 {
+  display: flex;
+  padding: 64px 150px;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.s3Container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
 }
